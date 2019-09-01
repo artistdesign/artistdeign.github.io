@@ -1,0 +1,187 @@
+html {
+    background-color: #fff6d9;
+}
+
+.topnav { /*taskbar*/
+    position: relative;
+    overflow: hidden;
+    color:#834187
+}
+    
+.topnav a:hover { /*taskbar hovering colour*/
+    color: #b19cd9;
+}
+    
+.topnav a { /*taskbar*/
+    float: left;
+    display: block;
+    background-image: url(https://i.pinimg.com/474x/b4/0d/f9/b40df9f2ad5337420235820a0e1bd0d1.jpg);
+    background-position: top;
+    text-align: center;
+    padding: 10px 95.5px;
+    text-decoration: none;
+    font-family: 'Sacramento', cursive;
+    font-size: 29px;
+    max-height: 45px;
+}
+
+ h4 { /*quote*/
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 18px;
+    text-align: center;
+}
+
+body { /*taskbar and quote*/
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 730px;
+    text-align: center;
+    color: #9bdede;
+    font-size: 22px;
+}
+
+footer {
+    font-family: 'Delius Swash Caps', cursive;
+    max-width: 730px;
+    position: absolute;
+    padding: 5px 279px;
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+
+#page-container {
+  position: relative;
+  min-height: 50vh;
+}
+
+#content-wrap {
+  padding-bottom: 0;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 49px;
+    font-size: 18px;
+}
+
+p { /*bio*/
+    text-align: left;
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 18px;
+    color: #575757; 
+}
+
+.me { /*photo of me*/
+    padding-right: 0;
+    margin-right: 7px;
+    float: left;
+}
+
+td { /*table for my drawings*/
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.art {
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 621px) and (max-width: 799px){
+    body {
+        max-width: 500px; 
+    }
+    
+    .topnav a {
+        padding: 10px 60px;
+        font-size: 26px;
+        display:inline-block;
+    }
+    
+    h4 {
+        font-family: 'Delius Swash Caps', cursive;
+        font-size: 12.5px;
+        text-align: center;
+    }
+    
+    img {
+        max-width: 260px;
+        align-content: center;
+    }
+    
+    footer {
+        padding: 5px 165px;
+        align-content: center;
+    }
+    
+    .art {
+        width: 130px;
+    }
+    
+    .me {
+        height: 135px;
+    }
+    
+    p {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 620px){
+    body {
+        max-width: 400px;
+    }
+    
+    .topnav { /*taskbar*/
+    position: relative;
+    overflow: hidden;
+    color:#834187
+}
+    
+    .topnav a {
+        padding: 10px 47px;
+        font-size: 22px;
+        margin: 0 auto;
+    }
+    
+    h4 {
+        font-family: 'Delius Swash Caps', cursive;
+        font-size: 10.5px;
+        text-align: center;
+    }
+    
+    .me { /*photo of me*/
+    padding-right: 0;
+    margin-right: 7px;
+    margin-top: 2px;
+    height: 106px
+    }
+    
+    img {
+        max-width: 260px;
+        align-content: center;
+    }
+    
+    footer {
+        padding: 5px 115px;
+        align-content: center;
+    }
+    
+    .art {
+        width: 100px;
+    }
+    
+    p {
+        width: 400px;
+    }
+}
+
